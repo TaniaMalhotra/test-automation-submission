@@ -1313,12 +1313,58 @@ footer {
 .customer-review {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(review-background.jpg);
-  height: 100vh;
+  height: 112vh;
   background-position: center;
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
   clear: both;
-  padding: 75px 0px;
+  padding-top: 75px;
   margin: 0px;
 }
+body footer.page-footer {
+    background-color: rgba(252, 34, 49, 0.979);
+  }
+
+  .brand-logo {
+    height: 90%;
+  }
+  
+  .mynav,
+  body footer.page-footer {
+    background-color: rgba(252, 34, 49, 0.979);
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+  }
+  
+  input[type='number'] {
+    -moz-appearance: textfield;
+    /* Firefox */
+  }
+  
+  input {
+    outline: 0;
+    border-width: 0 0 2px;
+  }
+  
+  input:focus {
+    border-color: rgb(209, 69, 59);
+  }
+  
+  input#amount {
+    color: red;
+    font-size: 6rem;
+    text-align: center;
+  }
+  
+  span.red-text {
+    height: auto;
+    font-size: 6rem;
+  }
+  
