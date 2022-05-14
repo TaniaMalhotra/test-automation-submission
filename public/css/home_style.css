@@ -38,6 +38,7 @@ header {
   background-size: cover;
   position: relative;
   background-attachment: fixed;
+  background-image: hero-btn;
 }
 
 #logo {
@@ -133,7 +134,7 @@ header {
 
 .hero-btn {
   border-radius: 5px;
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
   color: black;
   border: 2px solid black;
