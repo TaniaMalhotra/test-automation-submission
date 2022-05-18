@@ -45,7 +45,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repo and install the dependencies.
 
 ```bash
-git clone https://github.com/rishav394/bloodbank.git
+git clone [link]
 cd bloodbank-master
 ```
 
